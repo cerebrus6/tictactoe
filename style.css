@@ -1,0 +1,53 @@
+body {
+	
+}
+#game {
+	width: 320px;
+	height: 320px;
+	margin: auto;
+	margin-top: 100px;
+}
+#game h1 {
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 50px
+}
+.box {
+	border-radius: .1em;
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	text-align: center;
+	font-style: sans-serif;
+	font-size: 100px;
+	transition: 1.20s ease;
+}
+
+.box:hover {
+	background-color: #d6d6c2;
+}
+
+#b0, #b1, #b2, #b3, #b4, #b5 {
+border-bottom: 10px solid black;
+}
+#b0,#b1,#b3,#b4,#b6,#b7 {
+border-right: 10px solid black;
+}
+.winner {
+	color: #ffccff;
+}
+#center {
+	text-align: center;
+}
+#new_Game {
+	display: inline-block;
+	margin-top: 35px;
+	text-align: center;
+	padding: .5em;
+	border: 5px solid black;
+	font-size: 13px;
+	background-color: white;
+}
